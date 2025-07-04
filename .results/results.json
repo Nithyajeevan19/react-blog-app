@@ -1,0 +1,138 @@
+{
+  "test_case_results": [
+    {
+      "test_case_id": "RJSCPM9P8C_TEST_1",
+      "evaluation_result": "CORRECT",
+      "title": "Page should consist of at least two HTML list items and the blogsList data should be rendered using a unique key as a prop for each blog item",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPM9P8C_TEST_2",
+      "evaluation_result": "CORRECT",
+      "title": "Page should consist of a Link from react-router in the header with \"Home\" as text content",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPM9P8C_TEST_3",
+      "evaluation_result": "CORRECT",
+      "title": "Page should consist of a Link from react-router in the header with \"About\" as text content",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPM9P8C_TEST_4",
+      "evaluation_result": "CORRECT",
+      "title": "Page should consist of a Link from react-router in the header with \"Contact\" as text content",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPM9P8C_TEST_5",
+      "evaluation_result": "INCORRECT",
+      "title": "When the Home Route is opened, it should initially consist of an HTML container element with testid attribute value as \"loader\"",
+      "errorMessages": [
+        "The element(s) given to waitForElementToBeRemoved are already removed. waitForElementToBeRemoved requires that the element(s) exist(s) before waiting for removal."
+      ]
+    },
+    {
+      "test_case_id": "RJSCPM9P8C_TEST_6",
+      "evaluation_result": "CORRECT",
+      "title": "When the \"/about\" is provided in the browser tab, then the page should be navigated to About Route and consist of an HTML heading element with \"About\" as text content",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPM9P8C_TEST_7",
+      "evaluation_result": "CORRECT",
+      "title": "When the \"/contact\" is provided in the browser tab, then the page should be navigated to Contact Route and consist of an HTML heading element with \"Contact\" as text content",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPM9P8C_TEST_8",
+      "evaluation_result": "CORRECT",
+      "title": "When the \"/bad-path\" is provided in the browser tab, then the page should be navigated to NotFound Route and consist of an HTML heading element with \"Not Found\" as text content",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPM9P8C_TEST_9",
+      "evaluation_result": "CORRECT",
+      "title": "When the About link in the header is clicked, then the page should be navigated to About Route with \"/about\" in URL path",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPM9P8C_TEST_10",
+      "evaluation_result": "CORRECT",
+      "title": "When the Contact link in the header is clicked, then the page should be navigated to Contact Route with \"/contact\" in URL path",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPM9P8C_TEST_11",
+      "evaluation_result": "CORRECT",
+      "title": "When the Home link in the header is clicked, then the page should be navigated to Home Route with \"/\" in URL path",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPM9P8C_TEST_12",
+      "evaluation_result": "CORRECT",
+      "title": "Page should consist of an HTML heading element with \"Wade Warren\" as text content when rendering Home Route initially",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPM9P8C_TEST_13",
+      "evaluation_result": "CORRECT",
+      "title": "Page should consist of an HTML image element with alt text as \"profile\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPM9P8C_TEST_14",
+      "evaluation_result": "CORRECT",
+      "title": "Page should consist of an HTML image element in the header with the given logo URL as src and alt text as \"wave\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPM9P8C_TEST_15",
+      "evaluation_result": "CORRECT",
+      "title": "Home Route should consist of HTML heading elements with text content as the value of the \"title\" key received in the API response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPM9P8C_TEST_16",
+      "evaluation_result": "CORRECT",
+      "title": "Home Route should consist of HTML paragraph elements with text content as the value of the \"author\" key received in response for each blog item",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPM9P8C_TEST_17",
+      "evaluation_result": "CORRECT",
+      "title": "When the page is loaded initially an HTTP GET request should be made to the given apiUrl",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPM9P8C_TEST_18",
+      "evaluation_result": "CORRECT",
+      "title": "Each blog item should be wrapped with Link from react-router",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPM9P8C_TEST_19",
+      "evaluation_result": "CORRECT",
+      "title": "When a blog item is clicked in Home Route, then the page should be navigated to the Blog Item Details Route with \"/blogs/:id\" in the URL",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPM9P8C_TEST_20",
+      "evaluation_result": "CORRECT",
+      "title": "When \"/blogs/:id\" is provided in the URL, then the page should be navigated to the Blog Item Details Route and consist of an HTML heading element with text content as the value of the \"title\" key received in the API response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPM9P8C_TEST_21",
+      "evaluation_result": "CORRECT",
+      "title": "When navigated to a blog post, then the page should consist of an HTML image element with alt as the value of the \"title\" key and src as the value of the \"image_url\" key received in the API response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPM9P8C_TEST_22",
+      "evaluation_result": "CORRECT",
+      "title": "When navigated to a blog post, then the page should consist of an HTML paragraph element with text content as the value of the \"content\" key received in the API response",
+      "errorMessages": []
+    }
+  ]
+}
